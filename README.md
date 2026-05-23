@@ -27,7 +27,7 @@ The pipeline implements an end-to-end data preprocessing and modeling workflow u
 │   └── feature_importance.png
 ├── sample_output/           # Serialized predictions for audit/validation
 │   └── prediction_sample.csv
-├── valuation_engine.py      # Production-equivalent pipeline execution script
+├── property_price_model.py  # Production-equivalent pipeline execution script
 ├── EXPLANATION.md           # Detailed data science methodology & model analysis
 └── DEPLOYMENT.md            # Enterprise integration & BI dashboard delivery workflow
 
@@ -41,7 +41,7 @@ How to Execute the Pipeline
     pip install pandas numpy scikit-learn matplotlib seaborn
 
  3. Run the engine script:
-    python valuation_engine.py
+    python property_price_model.py
 
 
 
