@@ -7,6 +7,12 @@ By deploying this regression-based framework, we provided highly transparent pro
 
 ***Note on Data Privacy:** To comply with strict corporate confidentiality agreements, all proprietary client data and live business rules have been sanitized. This repository utilizes a functionally equivalent pipeline running on synthetic data that mirrors real-world Nigerian real estate patterns (including regional premiums across Lagos Ikoyi, Abuja Wuse II, etc.).*
 
+## Tech Stack
+- **Language:** Python 3.9+
+- **Libraries:** pandas, numpy, scikit-learn, matplotlib, seaborn
+- **Deployment:** Flask API integrated into internal CRM
+- **Environment:** Google Colab → Local Development → Production Server
+
 ## Core Features & Machine Learning Architecture
 The pipeline implements an end-to-end data preprocessing and modeling workflow using robust Scikit-Learn design principles:
 * **Feature Engineering & Preprocessing:** Automates scaling for numerical metrics (`space_sqm`, `num_rooms`, `num_bathrooms`, `age_years`) using `StandardScaler` and handles categorical neighborhood encoders via `OneHotEncoder`.
